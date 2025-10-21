@@ -385,7 +385,7 @@ def create_app():
                         
                         gr.Markdown("---")
                         train_btn = gr.Button("🚀 START TRAINING", variant="primary", size="lg")
-                        train_status = gr.Textbox(label="📊 Status", value="Ready", interactive=False, autoscroll=False, sc)
+                        train_status = gr.Textbox(label="📊 Status", value="Ready", interactive=False, autoscroll=False)
                     
                     with gr.Column(scale=2):
                         train_plot = gr.Plot(label="📈 Training Results")

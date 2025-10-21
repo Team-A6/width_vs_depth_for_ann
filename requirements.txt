@@ -1,0 +1,5 @@
+numpy==1.24.3
+torch==2.0.1
+gradio==4.19.2
+plotly==5.18.0
+pandas==2.0.3

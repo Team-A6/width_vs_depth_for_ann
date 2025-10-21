@@ -435,6 +435,7 @@ if __name__ == "__main__":
     print("⚡ NEW: ReLU added to Vertical Expansion!")
     
     demo = create_app()
+    print('BEN BURDAYIM')
     demo.launch(
         share=False,
         server_port=int(os.getenv("PORT", 8080)),      # Tüm IP'lerden erişim

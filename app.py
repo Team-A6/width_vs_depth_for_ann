@@ -435,9 +435,9 @@ if __name__ == "__main__":
     
     demo = create_app()
     demo.launch(
-        share=False, 
-        server_port=7862,
-        server_name="127.0.0.1",
+        share=False,
+        server_port=8080,           # Fly.io için 8080
+        server_name="0.0.0.0",      # Tüm IP'lerden erişim
         show_error=True,
         quiet=False
     )

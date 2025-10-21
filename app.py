@@ -438,7 +438,7 @@ if __name__ == "__main__":
     print('BEN BURDAYIM')
     demo.launch(
         share=False,
-        server_port=int(os.getenv("PORT", 8080)),      # Tüm IP'lerden erişim
+        server_port=int(os.getenv("PORT", 7860)),      # Tüm IP'lerden erişim
         show_error=True,
         quiet=False
     )

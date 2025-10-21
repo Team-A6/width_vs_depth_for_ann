@@ -4,6 +4,7 @@ Main Gradio application for Width vs Depth visualization - Reorganized
 
 import pandas as pd
 import gradio as gr
+import os
 
 from sigmoid_plots import plot_neuron_sum, plot_three_graphs
 from bump_plots import plot_single_bump, plot_bump_sum
